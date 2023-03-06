@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 10%; */
+    padding-right:10%;
+    max-width: 50%;
+    
+}
+
+.movie-container > h2 {
+    text-align: center;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-list {
+    border: 1px solid #786d6d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #8b7f7f;
+    margin: 0.5rem;
+    width: 200px;
+}
+
+.movie-list > h4 {
+    margin: 0.5%;
+}
+
+.movie-list > h2 {
+    text-decoration: underline;
+  }
