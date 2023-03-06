@@ -11,7 +11,7 @@ function GetMovies (){
     useEffect(()=> {
         fetch("https://sinemazone.onrender.com/movies")
         .then(res=>res.json())
-        .then(data=>setMovies(data)) 
+        .then(data=>setMovies(data))
     },[])
 
     const displayedmovies = movies.filter(movie => 
