@@ -27,7 +27,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #8b7f7f;
+    background-color: blue;
     margin: 0.5rem;
     width: 200px;
 }

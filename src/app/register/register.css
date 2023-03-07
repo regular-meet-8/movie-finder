@@ -32,7 +32,7 @@ input {
   
 button {
     border: none;
-    background-color: #fff;
+    background-color: blueviolet;
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -41,7 +41,7 @@ button {
   
 .toggle-btn {
     background: none;
-    color: #fff;
+    color: brown;
     text-decoration: underline;
 }
 
